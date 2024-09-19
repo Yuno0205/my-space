@@ -1,6 +1,6 @@
 // pages/blog/index.tsx
-import Link from "next/link";
-import { blogPosts } from "@/data/blogs";
+import Link from 'next/link';
+import { blogPosts } from '@/data/blogs';
 
 const BlogListPage = () => {
   return (

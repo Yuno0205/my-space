@@ -1,8 +1,8 @@
 // components/Blog.tsx
-import React from "react";
-import { BlogPost, ContentBlock } from "@/data/blogs";
-import Image from "next/image";
-import image from "@/public/images/1696065152678.png";
+import React from 'react';
+import { BlogPost, ContentBlock } from '@/data/blogs';
+import Image from 'next/image';
+import image from '@/public/images/1696065152678.png';
 
 interface BlogProps {
   post: BlogPost;
@@ -11,19 +11,19 @@ interface BlogProps {
 const Blog: React.FC<BlogProps> = ({ post }) => {
   const renderBlock = (block: ContentBlock, index: number) => {
     switch (block.type) {
-      case "title":
+      case 'title':
         return (
           <h2 key={index} className="text-3xl font-bold mb-4">
             {block.content}
           </h2>
         );
-      case "text":
+      case 'text':
         return (
           <p key={index} className="text-lg mb-4">
             {block.content}
           </p>
         );
-      case "image":
+      case 'image':
         return (
           <Image
             key={index}

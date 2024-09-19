@@ -1,7 +1,7 @@
 // app/blog/[id]/page.tsx
-import { notFound } from "next/navigation";
-import Blog from "@/components/Blog";
-import { blogPosts } from "@/data/blogs";
+import { notFound } from 'next/navigation';
+import Blog from '@/components/Blog';
+import { blogPosts } from '@/data/blogs';
 
 interface BlogPostPageProps {
   params: { id: string };
