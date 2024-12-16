@@ -348,9 +348,6 @@ export default function Component() {
                 <li>
                   <Link href="#">Facebook</Link>
                 </li>
-                <li>
-                  <Link href="#">Instagram</Link>
-                </li>
               </ul>
             </div>
           </div>
