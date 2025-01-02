@@ -74,18 +74,6 @@ export default function Header() {
             >
               About
             </Link>
-            <Link
-              href="/services"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            >
-              Services
-            </Link>
-            <Link
-              href="/contact"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            >
-              Contact
-            </Link>
           </div>
         </div>
       )}
