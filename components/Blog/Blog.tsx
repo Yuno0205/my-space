@@ -41,7 +41,7 @@ const Blog: React.FC<BlogProps> = ({ post }) => {
 
   return (
     <div className="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md">
-      <h1 className="text-4xl font-extrabold mb-6">{post.title}</h1>
+      {/* <h1 className="text-4xl font-extrabold mb-6">{post.title}</h1> */}
       {post.blocks.map((block, index) => renderBlock(block, index))}
     </div>
   );
